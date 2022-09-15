@@ -238,15 +238,15 @@ git status -h
 # Работа с Гит пуш и пул
 ## Дополнение файла
 
-Когда не создан локально репозитория ->
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Kudrat11/git-hw-3.git
-git push -u origin main
+>>> Когда не создан локально репозитория ->
+ 1. git init
+ 2. git add README.md
+ 3. git commit -m "first commit"
+ 4. git branch -M main
+ 5. git remote add origin https://github.com/Kudrat11/git-hw-3.git
+ 6. git push -u origin main
 
-Если уже есть репозиторий то проделаем эти ..
-git remote add origin https://github.com/Kudrat11/git-hw-3.git
-git branch -M main
-git push -u origin main
+>>> Если уже есть репозиторий то проделаем эти ..
+ 1. git remote add origin https://github.com/Kudrat11/git-hw-3.git
+ 2. git branch -M main
+ 3. git push -u origin main
